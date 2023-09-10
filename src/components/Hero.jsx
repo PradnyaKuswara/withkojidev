@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <div className="flex gap-10 justify-center items-center">
-        <div data-aos="fade-right"data-aos-anchor-placement="center-bottom" data-aos-mirror="false">
+        <div data-aos="fade-right">
           <img
             src="/images/kuswara.jpg"
             alt="Kuswara"

@@ -11,7 +11,7 @@ const Header = () => {
       >
         <div className="flex md:flex-1">
           <Link to="/" className="-m-1.5">
-            <div className="relative">
+            <div className="">
               <img
                 src="/images/KOJIDEV.png"
                 className="h-8 rounded-full"
