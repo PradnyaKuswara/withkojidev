@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="mt-10 grid md:grid-cols-5 gap-16 md:gap-4 max-w-screen-lg mx-auto md:place-content-center md:place-items-center">
-        <div className="md:col-span-3" data-aos="fade-right">
+        <div className="md:col-span-3" data-aos="fade-right" data-aos-offset="250">
           <p className="pe-0 lg:pe-6 text-justify  font-light text-gray-500 lg:mb-8 t text-sm lg:text-md">
             Motivated and enthusiastic Informatics student with a passion for
             technology. Dedicated to expanding knowledge and skills in various
