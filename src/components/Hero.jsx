@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <div className="flex gap-10 justify-center items-center">
-        <div data-aos="fade-right">
+        <div className="animate__animated animate__fadeInLeft">
           <img
             src="/images/kuswara.jpg"
             alt="Kuswara"
@@ -13,11 +13,11 @@ const Hero = () => {
             style={{ width: "350px" }}
           />
         </div>
-        <div data-aos="fade-left">
+        <div className="animate__animated animate__fadeInRight">
           <h1 className=" mb-4 text-xl  tracking-tight text-justify text-gray-500 leading-none lg:text-3xl">
             Hi,
           </h1>
-          <h1 className="mb-4 text-lg tiempos font-extrabold tracking-tight  leading-none md:text-3xl dark:text-white">
+          <h1 className="mb-4 text-lg tiempos font-extrabold tracking-tight  leading-none md:text-3xl">
             I am <span class="text-teal-900 text-lg md:text-3xl">I Gusti Ngurah A Pradnya Kuswara</span>
           </h1>
         </div>
@@ -45,7 +45,7 @@ const Hero = () => {
             <i className="ms-2 fa-solid fa-arrow-up-right-from-square"></i>
           </Link>
         </div>
-        <div className=" md:col-span-2" data-aos="fade-in" data-aos-offset="300">
+        <div className=" md:col-span-2" data-aos="fade-in" data-aos-offset="250">
           <div className="mb-5">
             <h1 className="mb-4 text-lg text-gray-500 tracking-tight text-left lg:text-right leading-none xl:text-xl">
               Years of Experience

@@ -4,14 +4,23 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="rounded-full max-w-screen-xl z-10 fixed md:left-0 md:right-0 w-screen mt-10 mx-auto  px-2  md:px-8 border shadow-md bg-teal-900">
+    <header className="absolute inset-x-0 top-0 z-10">
       <nav
-        className="flex items-center justify-between py-4 px-3"
+        className="flex items-center justify-between py-4  rounded-full max-w-screen-xl z-10 fixed md:left-0 md:right-0 w-screen mt-10 mx-auto  px-6  md:px-8 border shadow-md bg-teal-900"
         aria-label="Global"
       >
-        <Link to="/" className="">
-          <img src="/images/KOJIDEV.png" className="h-8 rounded-full" alt="" />
-        </Link>
+        <div className="flex md:flex-1">
+          <Link to="/" className="-m-1.5">
+            <div className="relativ">
+              <img
+                src="/images/KOJIDEV.png"
+                className="h-8 w-8 rounded-full"
+                alt=""
+              />
+            </div>
+          </Link>
+        </div>
+
         <div className="flex md:hidden">
           <button
             type="button"
