@@ -9,19 +9,10 @@ const Header = () => {
         className="flex items-center justify-between py-4 px-3"
         aria-label="Global"
       >
-        <div className="flex md:flex-1">
-          <Link to="/" className="">
-            <div className="">
-              <img
-                src="/images/KOJIDEV.png"
-                className="h-8 rounded-full"
-                alt=""
-              />
-            </div>
-          </Link>
-        </div>
-
-        <div className="flex lg:hidden">
+        <Link to="/" className="">
+          <img src="/images/KOJIDEV.png" className="h-8 rounded-full" alt="" />
+        </Link>
+        <div className="flex md:hidden">
           <button
             type="button"
             className="btn-open -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
@@ -45,13 +36,25 @@ const Header = () => {
         </div>
 
         <div className="hidden md:flex md:gap-12">
-          <HashLink smooth to="/#root" className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold">
+          <HashLink
+            smooth
+            to="/#root"
+            className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold"
+          >
             Home
           </HashLink>
-          <HashLink smooth to="/#project" className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold">
+          <HashLink
+            smooth
+            to="/#project"
+            className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold"
+          >
             Project
           </HashLink>
-          <HashLink smooth to="/#contact" className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold">
+          <HashLink
+            smooth
+            to="/#contact"
+            className="text-xs leading-6 text-gray-100 hover:text-white hover:font-bold"
+          >
             Contact
           </HashLink>
         </div>
