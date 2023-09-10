@@ -10,7 +10,7 @@ const Header = () => {
         aria-label="Global"
       >
         <div className="flex md:flex-1">
-          <Link to="/" className="-m-1.5">
+          <Link to="/" className="">
             <div className="">
               <img
                 src="/images/KOJIDEV.png"

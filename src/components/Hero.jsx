@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="mt-10 grid md:grid-cols-5 gap-16 md:gap-4 md:place-content-center md:place-items-center">
-        <div className="md:col-span-3" data-aos="fade-right" data-aos-offset="300">
+        <div className="md:col-span-3" data-aos="fade-right">
           <p className="pe-0 lg:pe-6 text-justify  font-light text-gray-500 lg:mb-8 t text-sm lg:text-md">
             Motivated and enthusiastic Informatics student with a passion for
             technology. Dedicated to expanding knowledge and skills in various
@@ -45,7 +45,7 @@ const Hero = () => {
             <i className="ms-2 fa-solid fa-arrow-up-right-from-square"></i>
           </Link>
         </div>
-        <div className=" md:col-span-2" data-aos="fade-in" data-aos-offset="400">
+        <div className=" md:col-span-2" data-aos="fade-in" data-aos-offset="300">
           <div className="mb-5">
             <h1 className="mb-4 text-lg text-gray-500 tracking-tight text-left lg:text-right leading-none xl:text-xl">
               Years of Experience
