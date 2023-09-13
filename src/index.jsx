@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 export default function App() {
   useEffect(() => {
     AOS.init({
-      duration: 250,
+      duration: 350,
       offset: 1,
       startEvent: 'load',
     });

@@ -7,6 +7,7 @@ const ItemProject = ({ datas }) => {
         <div
           className="grid grid-flow-row mx-auto mt-5 my-3"
           data-aos="fade-in"
+          data-aos-offest="250"
         >
           <div className="shadow-lg max-w-xs md:max-w-full mx-auto  rounded-lg  bg-white p-8 my-3">
             <div className="flex flex-col md:flex-row justify-between items-center my-3">

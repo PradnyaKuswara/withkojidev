@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Hero = () => {
   return (
@@ -40,10 +41,10 @@ const Hero = () => {
           >
             Resume
           </Link>
-          <Link className="inline-flex items-center justify-center px-7 py-3 mr-3 mt-3 lg:mt-0 transition ease-in-out delay-150 hover:scale-110 duration-300 text-base font-medium text-center text-gray-900  rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
+          <HashLink to="/#project" smooth className="inline-flex items-center justify-center px-7 py-3 mr-3 mt-3 lg:mt-0 transition ease-in-out delay-150 hover:scale-110 duration-300 text-base font-medium text-center text-gray-900  rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100">
             Project
             <i className="ms-2 fa-solid fa-arrow-up-right-from-square"></i>
-          </Link>
+          </HashLink>
         </div>
         <div className=" md:col-span-2" data-aos="fade-in" data-aos-offset="250">
           <div className="mb-5">
