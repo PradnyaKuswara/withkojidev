@@ -5,12 +5,12 @@ import DocumentTitle from "../components/DocumentTitle";
 import Contact from "../components/Contact";
 
 export default function Homepage() {
-  DocumentTitle('HomePage')
-  return (
-    <>
-      <Hero />
-      <Project/>
-      <Contact />
-    </>
-  );
+    DocumentTitle("HomePage");
+    return (
+        <>
+            <Hero />
+            <Project />
+            <Contact />
+        </>
+    );
 }
